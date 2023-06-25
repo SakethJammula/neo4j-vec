@@ -327,9 +327,6 @@ public class GetRegPatternWalksIterative {
             String Author = "Author";
             String Article = "Article";
 
-//            String Protein = "Protein";
-//            String LightKinase = "LightKinase";
-//            String Pathway = "Pathway";
 
             String addVal = "";
             String useVal = "";
