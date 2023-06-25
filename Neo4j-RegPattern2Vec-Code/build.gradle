@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+// Define the Java version
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.neo4j:neo4j-kernel:5.7.0'
+    implementation 'org.neo4j:neo4j-logging:5.7.0'
+    implementation 'org.neo4j.driver:neo4j-java-driver:5.7.0'
+    implementation 'dk.brics:automaton:1.12-4'
+
+}
+
+test {
+    useJUnitPlatform()
+}
