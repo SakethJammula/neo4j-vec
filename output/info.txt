@@ -1,0 +1,7 @@
+The output files can be accessed from my google drive link below:
+
+https://drive.google.com/drive/folders/1F3nj_zvmGNNGp0NBS5HLznzGUI_oHSxk?usp=sharing
+
+1. neo4j-regpattern2vec-plugin.jar : This is the output jar file of the implemented plugin
+2. random-walks-WL10-NW10.txt  : These are the generated random walks of walk length 10 and number of walks per node 10 for the regex = (Author)(Article)*(Venue)
+3. walks-vec.txt : The generated node embeddings for the random walks which can be then used for link prediction experiment
