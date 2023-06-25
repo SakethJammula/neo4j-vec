@@ -1,1 +1,1 @@
-# neo4j-vec
+# neo4j implementation of RegPattern2Vec
